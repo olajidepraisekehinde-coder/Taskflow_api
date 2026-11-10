@@ -1,0 +1,14 @@
+const STATUS_TEXT = {
+  200: "OK",
+  201: "Created",
+  400: "Bad Request",
+  401: "Unauthorized",
+  403: "Forbidden",
+  404: "Not Found",
+  409: "Conflict",
+  500: "Internal Server Error",
+};
+
+Task.findAll() retrieves multiple records.
+Task.findByPk() retrieves one record using its primary key.
+Task.findOne() retrieves one matching record.
